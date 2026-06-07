@@ -253,7 +253,7 @@ This toolkit is offered for sale.
 - $10K unlimited MSP license
 
 Contact: **Jim Ames, n2nhu lab, Newburgh NY**
-
+jimpames@gmail.com
 ---
 
 *"No claim without provenance. $1 on diff saves $100 on debug."*
