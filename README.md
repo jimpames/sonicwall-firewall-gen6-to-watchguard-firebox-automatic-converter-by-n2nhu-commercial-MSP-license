@@ -258,6 +258,8 @@ migration_toolkit/
 This toolkit is offered for sale.
 
 - $10K unlimited MSP license
+- binary license only
+- no sales outside MSP areana - contact your MSP - tell them you want Firewall Ejector Seat
 
 Contact: **Jim Ames, n2nhu lab, Newburgh NY** 
 jimpames@gmail.com 
