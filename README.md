@@ -268,7 +268,7 @@ This toolkit is offered for sale.
 - stop paying engineers to read and write configs - let them work on corner cases instead
 - you're printing money after the 10th conversion!
 - binary license only
-- no sales outside MSP areana - contact your MSP - tell them you want Firewall Ejector Seat
+- no sales outside MSP arena - contact your MSP - tell them you want Firewall Ejector Seat
 
 Contact: **Jim Ames, n2nhu lab, Newburgh NY** 
 jimpames@gmail.com 
