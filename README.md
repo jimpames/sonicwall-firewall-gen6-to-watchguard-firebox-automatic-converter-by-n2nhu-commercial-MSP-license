@@ -264,6 +264,9 @@ migration_toolkit/
 This toolkit is offered for sale.
 
 - $10K unlimited MSP license
+- pays for itself in 10 conversion or less
+- stop paying engineers to read and write configs - let them work on corner cases instead
+- you're printing money after the 10th conversion!
 - binary license only
 - no sales outside MSP areana - contact your MSP - tell them you want Firewall Ejector Seat
 
