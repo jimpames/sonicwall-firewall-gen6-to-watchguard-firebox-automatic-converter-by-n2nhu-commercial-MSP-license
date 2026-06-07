@@ -1,5 +1,19 @@
 # SonicWall → WatchGuard Migration Toolkit
-
+# 
+#   (C) Copyright 2026, jim ames. all rights reserved. 
+#   reverse engineering my system is prohibited.
+#   license: closed source, commercial use license required.
+#   no hobby or one-off use- MSP only
+#
+#   contact: jimpames@gmail.com for licensing
+#
+#   $10,000 per MSP one-time
+# 
+#  need something else other than sonicwall to watchguard?
+#  translate most anything to sonicwall with THEIR universal translator
+#  then use FESv11 algebraic to translate THAT to watchguard... 
+# 
+# 
 **n2nhu lab — Jim Ames**
 
 Reproducible converter that transforms a SonicWall NSA-3600 (or compatible SonicOS) configuration export into a WatchGuard Firebox T-30 (or compatible Fireware 12.5.9) XML configuration that loads on the box AND renders correctly in the Web UI.
