@@ -251,7 +251,6 @@ migration_toolkit/
 This toolkit is offered for sale.
 
 - $10K unlimited MSP license
-- $100M full WatchGuard acquisition (founder buy-out)
 
 Contact: **Jim Ames, n2nhu lab, Newburgh NY**
 
