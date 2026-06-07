@@ -42,6 +42,10 @@ python3 skeleton_engine/build_pipeline.py \
 
 If all 8 validators exit **0**, the file is ready for the Firebox.
 
+note: you MUST FTP the config  off the sonicwall in e-cli format.
+
+export current-config cli ftp ftp://admin:MyPassword123@192.168.1.50/firewall_config.txt
+
 ---
 
 ## Architecture
