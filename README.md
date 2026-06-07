@@ -9,7 +9,7 @@ sonicwall to watchguard automatic converter -firewall ejector seat v11 end to en
 
 <img width="2816" height="1536" alt="Gemini_Generated_Image_978lkj978lkj978l" src="https://github.com/user-attachments/assets/7573b7f9-2605-470e-9647-e1e9b084e288" />
 
-[![Watch the video](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)
+[![Watch the video - 25 mins end to end CLI demo](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)
 
 ---
 
