@@ -1,0 +1,189 @@
+========================================================================
+DIFF: EMIT (skeleton_engine/output/configuration.xml)  vs  JPA (schema_learner/corpus/T30jpa1.xml)
+========================================================================
+
+section                               EMIT       JPA   diff   notes
+------------------------------------------------------------------------
+abs-ipsec-action-list                    1         1   ✓
+abs-muvpn-list                           1         1   ✓
+abs-policy-list                         15        15   ✓
+account-list                             0         0   ✓
+address-group-list                      64        14   +50
+alarm-action-list                        8         8   ✓
+alias-list                              56        49   +7
+app-action-list                          1         1   ✓
+apps-block-profile-list                  0         0   ✓
+auth-domain-list                         1         1   ✓
+auth-group-list                          2         2   ✓
+base-model                               0         0   ✓
+device-group-list                        4         4   ✓
+dlp-sensor-list                          2         2   ✓
+dnat-list                                3         3   ✓
+for-version                           leaf      leaf   ✓      
+gateway-wireless-controller              4         4   ✓
+geolocation-blocking                     2         2   ✓
+hotspot-list                             0         0   ✓
+https-exception-override-list            1         1   ✓
+ike-action-list                          2         2   ✓
+ike-policy-group-list                    1         1   ✓
+ike-policy-list                          6         3   +3
+interface-list                          15        15   ✓
+ipsec-action-list                        3         2   +1
+ipsec-proposal-list                     13        12   +1
+l2tp-list                                0         0   ✓
+load-balance-list                        0         0   ✓
+nat-list                                 2         2   ✓
+one-to-one-nat-list                      0         0   ✓
+policy-filter-list                       0         0   ✓
+policy-list                             41        16   +25
+policy-tag-list                          0         0   ✓
+policy-view                              2         2   ✓
+probe-list                               0         0   ✓
+product-grade                         leaf      leaf   ✓      
+proxy-action-list                       33        33   ✓
+proxy-helper-list                        5         5   ✓
+radius-conf-list                         0         2   -2
+ras-domain-item-list                     0         0   ✓
+ras-server-group-list                    0         0   ✓
+ras-user-group-list                      1         1   ✓
+ras-user-list                            0         0   ✓
+revision-history                         1         1   ✓
+rs-version                            leaf      leaf   ✓      
+schedule-list                           10         2   +8
+service-list                           317       106   +211
+signature-update                        10        10   ✓
+sslvpn-list                              0         0   ✓
+system-parameters                       40        40   ✓
+tls-profile-list                         4         4   ✓
+traffic-mgmt-list                        0         0   ✓
+user-group-list                          1         1   ✓
+using-cpm-profile                     leaf      leaf   ✓      
+webblocker-global-exception-list         1         1   ✓
+xml-purpose                           leaf      leaf   ✓      
+
+========================================================================
+NAME-SET DIFFERENCES (entries by <name>)
+========================================================================
+
+<address-group-list>:
+  only in EMIT (50):
+      14.14.14.14
+      Default Geo-IP and Botnet Exclusion Group
+      LAN IPv6 Subnets
+      LAN Interface IPv6 Addresses
+      MGMT IPv6 Addresses
+      MGMT Management IPv6 Addresses
+      U0 IPv6 Addresses
+      U0 Management IPv6 Addresses
+      U1 IPv6 Addresses
+      U1 Management IPv6 Addresses
+      WAN IPv6 Subnets
+      WAN Interface IPv6 Addresses
+      X0 IPv6 Addresses
+      X0 Management IPv6 Addresses
+      X1 IPv6 Addresses
+      X1 Management IPv6 Addresses
+      X10 IPv6 Addresses
+      X10 Management IPv6 Addresses
+      X11 IPv6 Addresses
+      X11 Management IPv6 Addresses
+      ... +30 more
+
+<alias-list>:
+  only in EMIT (7):
+      MGMT IP
+      MGMT Subnet
+      X0 IP
+      X0 Subnet
+      X1 Default Gateway
+      X1 IP
+      X1 Subnet
+
+<ike-policy-list>:
+  only in EMIT (3):
+      WAN GroupVPN
+      WLAN GroupVPN
+      fakesite2site
+
+<ipsec-action-list>:
+  only in EMIT (1):
+      fakesite2site
+
+<ipsec-proposal-list>:
+  only in EMIT (1):
+      ESP-TRIPLEDES-SHA1
+
+<policy-list>:
+  only in EMIT (25):
+      01a1e126-dcb6-b5a5-0700-c0eae4fb045c
+      1794dd73-62c2-4abb-0700-c0eae4fb045c
+      23ffba4d-988a-2654-0700-c0eae4fb045c
+      2e4afa2a-254d-9c04-0700-c0eae4fb045c
+      349a0c3f-8486-6df9-0700-c0eae4fb045c
+      4e6564c0-4620-6149-0700-c0eae4fb045c
+      542bb625-83a1-8132-0700-c0eae4fb045c
+      5d9337a9-7fe8-da67-0700-c0eae4fb045c
+      7bfc9254-c816-5a3e-0700-c0eae4fb045c
+      7ecc3f2a-95d2-66de-0700-c0eae4fb045c
+      82f8cb71-4e85-6cc7-0700-c0eae4fb045c
+      8ab2254c-7e38-6fd0-0700-c0eae4fb045c
+      92dc826d-71e6-ccff-0700-c0eae4fb045c
+      9eb3ec1b-92ae-efab-0700-c0eae4fb045c
+      a5d5eb80-446e-3139-0700-c0eae4fb045c
+      a9a3bbfc-4244-5d85-0700-c0eae4fb045c
+      ae005a5c-a14b-6ea1-0700-c0eae4fb045c
+      b1cda88a-02ac-82d9-0700-c0eae4fb045c
+      b3c3e259-73b7-095e-0700-c0eae4fb045c
+      b4ed7af8-8634-6210-0700-c0eae4fb045c
+      ... +5 more
+
+<radius-conf-list>:
+  only in JPA (2):
+      Backup
+      Primary
+
+<schedule-list>:
+  only in EMIT (8):
+      After Hours
+      App Visualization Report Hours
+      AppFlow Report Hours
+      Cloud Backup Hours
+      Guest Cycle Quota Update
+      TSR Report Hours
+      Weekend Hours
+      Work Hours
+
+<service-list>:
+  only in EMIT (211):
+      6over4
+      AD Directory Services
+      AD NetBios Services
+      AD Server
+      Address Mask Reply
+      Address Mask Request
+      Address Unreachable
+      Alternative Address for Host
+      Apple Bonjour
+      Bad Length
+      BearShare
+      Beyond Scope of Source Address
+      Certification Path Advertisement Msg (IPv6)
+      Certification Path Solicitation Message (IPv6)
+      Citrix TCP (Session Reliability)
+      Comm Dst Host Admin Prohibited
+      Commu Dstination Admin Prohibited
+      Communication Admin Prohibited
+      DCE EndPoint
+      DNS (Name Service)
+      ... +191 more
+
+========================================================================
+SHAPE DIFFERENCES (parent->child tag pairs)
+========================================================================
+
+Pairs only in JPA:
+   <radius-conf><ip>
+   <radius-conf><name>
+   <radius-conf><password>
+   <radius-conf><port>
+   <radius-conf-list><radius-conf>

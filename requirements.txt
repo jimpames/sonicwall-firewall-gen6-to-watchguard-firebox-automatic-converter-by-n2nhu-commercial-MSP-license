@@ -1,0 +1,59 @@
+# ============================================================================
+# requirements.txt — SonicWall→WatchGuard Migration Toolkit
+# ============================================================================
+#
+# The CORE build pipeline (build_pipeline.py and everything it calls) has
+# ZERO third-party Python dependencies. Everything uses the standard library:
+#
+#   argparse, configparser, copy, dataclasses, datetime, hashlib, json,
+#   math, pathlib, re, shutil, statistics, subprocess, sys, tempfile,
+#   textwrap, time, typing, urllib, uuid, xml.etree.ElementTree
+#
+# This is deliberate — the toolkit must run on any reasonably modern Python
+# install without dependency hell, and the schema-learner derives its rules
+# from jpa.xml empirically rather than pulling in XML schema libraries.
+#
+# OPTIONAL dependencies (not needed for build_pipeline, only for adjacent
+# utilities and developer tooling) are listed below. Uncomment what you
+# actually need.
+#
+# Python version: 3.10+ (for from __future__ import annotations + type
+# union syntax). Tested on 3.10, 3.11, 3.12.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# CORE PIPELINE — nothing needed.
+# ----------------------------------------------------------------------------
+# Confirmed by static import analysis: every module reachable from
+# skeleton_engine/build_pipeline.py uses only Python stdlib.
+#
+# To verify after a fresh venv:
+#   python3 skeleton_engine/build_pipeline.py --full-rebuild
+# Should complete with all 8 validators exiting 0.
+
+
+# ----------------------------------------------------------------------------
+# OPTIONAL — used by harness/watchparse.py (Excel-format analysis dumps)
+# ----------------------------------------------------------------------------
+# Used only by harness/watchparse.py for exporting parser/enricher state
+# to .xlsx for inspection. Uncomment if you want to use that utility.
+#
+# openpyxl>=3.1.0
+
+
+# ----------------------------------------------------------------------------
+# OPTIONAL — schema-learner LLM provider (Anthropic API)
+# ----------------------------------------------------------------------------
+# schema_learner/llm_provider.py talks to api.anthropic.com via urllib
+# (stdlib), so no anthropic SDK is needed. If you'd prefer the official
+# Anthropic SDK for production deployments (better retry logic, streaming
+# support, native typed responses), uncomment:
+#
+# anthropic>=0.40.0
+
+
+# ----------------------------------------------------------------------------
+# OPTIONAL — development / testing
+# ----------------------------------------------------------------------------
+# pytest>=7.0.0          # test runner for harness/ tests
+# pytest-cov>=4.0.0      # coverage reporting
