@@ -4,6 +4,11 @@
 
 Reproducible converter that transforms a SonicWall NSA-3600 (or compatible SonicOS) configuration export into a WatchGuard Firebox T-30 (or compatible Fireware 12.5.9) XML configuration that loads on the box AND renders correctly in the Web UI.
 
+
+sonicwall to watchguard automatic converter -firewall ejector seat v11 end to end cli demo -n2nhu
+
+[![Watch the video](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)](https://youtu.be/VcJuLtbdjyE?si=-V1HSB2V2sT3tO0J)
+
 ---
 
 ## Quick Start
