@@ -1,18 +1,5 @@
 # SonicWall → WatchGuard Migration Toolkit
-# 
-#   (C) Copyright 2026, jim ames. all rights reserved. 
-#   reverse engineering my system is prohibited.
-#   license: closed source, commercial use license required.
-#   no hobby or one-off use- MSP only
-#
-#   contact: jimpames@gmail.com for licensing
-#
-#   $10,000 per MSP one-time
-# 
-#  need something else other than sonicwall to watchguard?
-#  translate most anything to sonicwall with THEIR universal translator
-#  then use FESv11 algebraic to translate THAT to watchguard... 
-# 
+
 # 
 **n2nhu lab — Jim Ames**
 
@@ -286,7 +273,20 @@ This toolkit is offered for sale.
 
 Contact: **Jim Ames, n2nhu lab, Newburgh NY** 
 jimpames@gmail.com 
+ 
+   (C) Copyright 2026, jim ames. all rights reserved. 
+   reverse engineering my system is prohibited.
+   license: closed source, commercial use license required.
+   no hobby or one-off use- MSP only
 
+   contact: jimpames@gmail.com for licensing
+
+   $10,000 per MSP one-time
+ 
+  need something else other than sonicwall to watchguard?
+  translate most anything to sonicwall with THEIR universal translator
+  then use FESv11 algebraic to translate THAT to watchguard... 
+ 
 -------
 supergrok analysis of INI files functions
 
