@@ -1,0 +1,686 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 66CA-DF9F
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit
+
+06/08/2026  03:59 AM    <DIR>          .
+06/07/2026  02:49 PM    <DIR>          ..
+06/06/2026  07:26 AM             1,534 .gitignore
+06/06/2026  07:26 AM    <DIR>          concept_map
+06/06/2026  07:26 AM            27,771 diff_emit_vs_jpa.json
+06/06/2026  07:26 AM             7,150 diff_emit_vs_jpa.txt
+06/06/2026  07:26 AM             9,602 diff_engine.py
+06/06/2026  07:26 AM    <DIR>          diff_scorer
+06/06/2026  07:26 AM    <DIR>          docs
+06/06/2026  07:26 AM    <DIR>          enricher
+06/07/2026  02:47 PM             2,815 for-ms-gemini.report.of.migraation.txt
+06/06/2026  07:26 AM            14,922 GETTING_STARTED.md
+06/06/2026  07:26 AM    <DIR>          gui
+06/06/2026  07:26 AM            11,737 HANDOFF_TO_DEVOPS.md
+06/06/2026  07:26 AM    <DIR>          harness
+06/08/2026  03:59 AM                 0 manifest.all.files.txt
+06/06/2026  07:26 AM            50,884 OPERATIONS_MANUAL.md
+06/07/2026  04:28 AM            11,225 README.md
+06/06/2026  07:26 AM            15,556 README.old.md
+06/06/2026  07:26 AM             2,847 requirements.txt
+06/06/2026  07:26 AM             4,147 run_pipeline.py
+06/06/2026  07:26 AM    <DIR>          schema_learner
+06/06/2026  07:26 AM    <DIR>          schema_lib
+06/06/2026  07:26 AM    <DIR>          skeleton_engine
+06/06/2026  07:26 AM    <DIR>          sonicwall_parser
+05/07/2026  12:29 PM    <DIR>          team_config
+06/06/2026  07:26 AM    <DIR>          wg_validator
+06/06/2026  07:26 AM    <DIR>          xml_emitter
+              13 File(s)        160,190 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\concept_map
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini
+06/06/2026  07:26 AM             7,665 concept_map.schema.ini
+06/06/2026  07:26 AM             4,607 concept_map_schema.ini
+               3 File(s)         37,611 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\diff_scorer
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            10,742 diff_report.json
+06/06/2026  07:26 AM            18,841 diff_scorer.py
+06/06/2026  07:26 AM             6,587 diff_score_config.ini
+06/06/2026  07:26 AM             7,863 diff_score_config.schema.ini
+06/06/2026  07:26 AM             2,091 diff_summary.txt
+               5 File(s)         46,124 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\docs
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM             4,955 DEMO_ike_vpn_sidebyside.md
+06/06/2026  07:26 AM            26,021 DEMO_ike_vpn_translation.md
+06/06/2026  07:26 AM            22,043 DEMO_llm_provider_subsystem.md
+06/06/2026  07:26 AM            21,405 PAPER_why_xml_not_cli.md
+06/06/2026  07:26 AM             5,639 PHASE2_TODO.md
+06/06/2026  07:26 AM             6,959 portshield_to_bridge.md
+06/06/2026  07:26 AM             4,836 PRINCIPLE_diff_over_debug.md
+06/06/2026  07:26 AM    <DIR>          reference_exports
+06/06/2026  07:26 AM             4,677 schema_format.md
+06/06/2026  07:26 AM    <DIR>          skeletons
+06/06/2026  07:26 AM             5,196 SMOKE_TEST_QUICKREF.md
+               9 File(s)        101,731 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\docs\reference_exports
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM           656,983 T30jpa1__1_.xml
+               1 File(s)        656,983 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\docs\skeletons
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM           531,061 master_skeleton.xml
+06/06/2026  07:26 AM             2,959 _skeleton_audit.json
+               2 File(s)        534,020 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\enricher
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            50,912 enricher.py
+06/06/2026  07:26 AM            15,797 enrich_config.ini
+06/06/2026  07:26 AM            11,210 enrich_config.schema.ini
+06/06/2026  07:26 AM             5,452 enrich_schema.ini
+06/07/2026  07:17 PM    <DIR>          output
+               4 File(s)         83,371 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\enricher\output
+
+06/07/2026  07:17 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/07/2026  07:17 PM             2,414 access_rules.json
+06/07/2026  07:17 PM               608 address_groups.json
+06/07/2026  07:17 PM             2,417 implicit_address_objects.json
+06/07/2026  07:17 PM            12,796 interfaces.json
+06/07/2026  07:17 PM             8,969 schedules.json
+06/07/2026  07:17 PM            52,140 service_groups.json
+06/07/2026  07:17 PM            62,369 service_objects.json
+06/07/2026  07:17 PM            11,954 vpn_policies.json
+06/07/2026  07:17 PM             2,601 _enrichment_manifest.json
+               9 File(s)        156,268 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\gui
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            22,333 ini_editor.py
+06/06/2026  07:26 AM             3,267 README.md
+               2 File(s)         25,600 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\harness
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM             9,502 clean_test_contamination.py
+06/06/2026  07:26 AM             8,421 run_all.py
+06/06/2026  07:26 AM            13,063 test_auto_reuse.py
+06/06/2026  07:26 AM             8,553 test_comment_preserving_ini.py
+06/06/2026  07:26 AM            14,035 test_comment_preserving_multiline.py
+06/06/2026  07:26 AM             5,337 test_engine_validation_wiring.py
+06/06/2026  07:26 AM             7,419 test_gui_save_roundtrip.py
+06/06/2026  07:26 AM            18,776 test_merge_engine.py
+06/06/2026  07:26 AM            20,213 test_phase3_llm.py
+06/06/2026  07:26 AM            20,742 test_phase4_deep_research.py
+06/06/2026  07:26 AM            22,889 test_phase5_team_coordination.py
+06/06/2026  07:26 AM            21,568 test_phase6_5_auto_promotion.py
+06/06/2026  07:26 AM            25,015 test_phase6_tier_filtering.py
+06/06/2026  07:26 AM            30,947 test_phase7_relevance_filter.py
+06/06/2026  07:26 AM            22,138 test_phase8_skeleton_fixes.py
+06/06/2026  07:26 AM            16,174 test_schema_learner_provenance.py
+06/06/2026  07:26 AM            19,474 test_triage.py
+06/06/2026  07:26 AM            32,265 test_wg_validator.py
+06/06/2026  07:26 AM             9,122 watchparse.py
+              19 File(s)        325,653 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM    <DIR>          audit
+06/06/2026  06:32 AM    <DIR>          backups
+05/06/2026  12:04 PM    <DIR>          banned
+06/06/2026  07:26 AM    <DIR>          corpus
+06/06/2026  07:26 AM            29,726 corpus_tiers.py
+06/06/2026  07:26 AM            21,540 deep_research.py
+06/06/2026  07:26 AM            18,154 DESIGN.md
+06/06/2026  07:26 AM            36,746 DESIGN_team_scale_addendum.md
+05/07/2026  12:29 PM    <DIR>          disagreements
+06/06/2026  07:26 AM            25,173 feature_vectors.py
+05/07/2026  07:36 AM    <DIR>          lab_verifications
+06/06/2026  07:26 AM             8,469 learn_config.ini
+06/06/2026  07:26 AM             4,324 learn_config.schema.ini
+06/06/2026  07:26 AM            36,328 llm_provider.py
+05/07/2026  12:29 PM    <DIR>          locks
+06/06/2026  07:26 AM            40,826 merge_engine.py
+06/06/2026  06:32 AM    <DIR>          proposals
+06/06/2026  07:26 AM            57,825 schema_learner.py
+05/06/2026  12:06 PM    <DIR>          sideline
+06/06/2026  07:26 AM            27,960 team_coordination.py
+06/06/2026  07:26 AM            71,628 triage.py
+              12 File(s)        378,699 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\audit
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM            43,901 2026-05.log
+06/06/2026  07:26 AM            63,264 2026-06.log
+               2 File(s)        107,165 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups
+
+06/06/2026  06:32 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM    <DIR>          2026-06-04_051956_2026-06-04_051955_phase1_merge_then_reuse
+06/06/2026  07:26 AM    <DIR>          2026-06-04_052356_for_apply
+06/06/2026  07:26 AM    <DIR>          2026-06-04_052357_for_citations
+06/06/2026  07:26 AM    <DIR>          2026-06-04_052358_for_audit_check
+06/06/2026  07:26 AM    <DIR>          2026-06-04_052408_2026-06-04_052407_phase1_merge_then_reuse
+06/06/2026  07:26 AM    <DIR>          2026-06-04_053352_for_apply
+06/06/2026  07:26 AM    <DIR>          2026-06-04_053352_for_citations
+06/06/2026  07:26 AM    <DIR>          2026-06-04_053353_for_audit_check
+06/06/2026  07:26 AM    <DIR>          2026-06-04_053404_2026-06-04_053403_phase1_merge_then_reuse
+06/06/2026  07:26 AM    <DIR>          2026-06-04_054241_for_apply
+06/06/2026  07:26 AM    <DIR>          2026-06-04_054241_for_citations
+06/06/2026  07:26 AM    <DIR>          2026-06-04_054242_for_audit_check
+06/06/2026  07:26 AM    <DIR>          2026-06-04_054253_2026-06-04_054252_phase1_merge_then_reuse
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_051956_2026-06-04_051955_phase1_merge_then_reuse
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_051956
+06/06/2026  07:26 AM             2,055 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_051956
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_051956
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_051956
+               5 File(s)        363,893 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_052356_for_apply
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_052357
+06/06/2026  07:26 AM             1,693 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_052357
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_052357
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_052357
+               5 File(s)        363,531 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_052357_for_citations
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_052357
+06/06/2026  07:26 AM             1,725 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_052357
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_052357
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_052357
+               5 File(s)        363,563 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_052358_for_audit_check
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_052358
+06/06/2026  07:26 AM             1,723 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_052358
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_052358
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_052358
+               5 File(s)        363,561 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_052408_2026-06-04_052407_phase1_merge_then_reuse
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_052409
+06/06/2026  07:26 AM             2,055 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_052409
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_052409
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_052409
+               5 File(s)        363,893 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_053352_for_apply
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_053352
+06/06/2026  07:26 AM             1,693 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_053352
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_053352
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_053352
+               5 File(s)        363,531 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_053352_for_citations
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_053353
+06/06/2026  07:26 AM             1,725 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_053353
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_053353
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_053353
+               5 File(s)        363,563 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_053353_for_audit_check
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_053354
+06/06/2026  07:26 AM             1,723 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_053354
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_053354
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_053354
+               5 File(s)        363,561 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_053404_2026-06-04_053403_phase1_merge_then_reuse
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_053404
+06/06/2026  07:26 AM             2,055 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_053404
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_053404
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_053404
+               5 File(s)        363,893 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_054241_for_apply
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_054241
+06/06/2026  07:26 AM             1,693 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_054241
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_054241
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_054241
+               5 File(s)        363,531 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_054241_for_citations
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_054242
+06/06/2026  07:26 AM             1,725 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_054242
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_054242
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_054242
+               5 File(s)        363,563 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_054242_for_audit_check
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_054242
+06/06/2026  07:26 AM             1,723 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_054242
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_054242
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_054242
+               5 File(s)        363,561 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\backups\2026-06-04_054253_2026-06-04_054252_phase1_merge_then_reuse
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM            25,339 concept_map.ini.bak.20260604_054254
+06/06/2026  07:26 AM             2,055 merge_manifest.json
+06/06/2026  07:26 AM            20,538 parser_config.ini.bak.20260604_054254
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini.bak.20260604_054254
+06/06/2026  07:26 AM            48,050 xml_emit_config.ini.bak.20260604_054254
+               5 File(s)        363,893 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\banned
+
+05/06/2026  12:04 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\corpus
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM           656,983 T30jpa1.xml
+06/06/2026  07:26 AM           589,077 TEMPLATE_FW.xml
+06/06/2026  07:26 AM             2,517 _corpus_index.ini
+               3 File(s)      1,248,577 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\disagreements
+
+05/07/2026  12:29 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\lab_verifications
+
+05/07/2026  07:36 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\locks
+
+05/07/2026  12:29 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals
+
+06/06/2026  06:32 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM    <DIR>          2026-05-05_133447_TEMPLATE_FW
+06/06/2026  07:26 AM    <DIR>          2026-05-05_133602_TEMPLATE_FW
+06/06/2026  07:26 AM    <DIR>          2026-05-06_113259_TEMPLATE_FW_phase1
+05/07/2026  07:53 AM    <DIR>          2026-05-07_073824_phase1_baseline_test
+06/06/2026  07:26 AM    <DIR>          2026-05-13_094624_phase1_merge_then_reuse
+06/06/2026  07:26 AM    <DIR>          TEST_FILLED_vpn_portal
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\2026-05-05_133447_TEMPLATE_FW
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM         3,663,849 findings.json
+06/06/2026  07:26 AM         1,196,283 findings.md
+06/06/2026  07:26 AM         1,910,292 OPERATOR_INTERVENTION_REQUIRED.md
+06/06/2026  07:26 AM            15,333 proposed_diff.md
+               4 File(s)      6,785,757 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\2026-05-05_133602_TEMPLATE_FW
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM           809,352 findings.json
+06/06/2026  07:26 AM           278,193 findings.md
+06/06/2026  07:26 AM           398,409 OPERATOR_INTERVENTION_REQUIRED.md
+06/06/2026  07:26 AM             7,787 proposed_diff.md
+               4 File(s)      1,493,741 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\2026-05-06_113259_TEMPLATE_FW_phase1
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM           812,194 findings.json
+06/06/2026  07:26 AM           281,059 findings.md
+06/06/2026  07:26 AM           398,416 OPERATOR_INTERVENTION_REQUIRED.md
+06/06/2026  07:26 AM             7,787 proposed_diff.md
+               4 File(s)      1,499,456 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\2026-05-07_073824_phase1_baseline_test
+
+05/07/2026  07:53 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\2026-05-13_094624_phase1_merge_then_reuse
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM           303,750 findings.md
+06/06/2026  07:26 AM             1,139 OPERATOR_INTERVENTION_REQUIRED.md
+               2 File(s)        304,889 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\proposals\TEST_FILLED_vpn_portal
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  06:32 AM    <DIR>          ..
+06/06/2026  07:26 AM           809,352 findings.json
+06/06/2026  07:26 AM             2,159 OPERATOR_INTERVENTION_REQUIRED.md
+               2 File(s)        811,511 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_learner\sideline
+
+05/06/2026  12:06 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_lib
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            24,575 comment_preserving_ini.py
+06/06/2026  07:26 AM             3,836 MULTILINE_KNOWN_LIMITATION.md
+06/06/2026  07:26 AM            19,451 schema_lib.py
+06/06/2026  07:26 AM               220 __init__.py
+06/06/2026  07:26 AM    <DIR>          __pycache__
+               4 File(s)         48,082 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\schema_lib\__pycache__
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM            17,255 comment_preserving_ini.cpython-310.pyc
+06/06/2026  07:26 AM            14,026 schema_lib.cpython-310.pyc
+06/06/2026  07:26 AM               462 __init__.cpython-310.pyc
+               3 File(s)         31,743 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\skeleton_engine
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM            12,141 build_pipeline.py
+06/06/2026  07:26 AM             7,351 customer_fidelity_validator.py
+06/06/2026  07:26 AM            14,636 immutables_classifier.py
+06/06/2026  07:26 AM             6,223 immutables_validator.py
+06/06/2026  07:26 AM            16,465 jpa_scrubber.py
+06/06/2026  07:26 AM            11,138 leaves_quality_extractor.py
+06/06/2026  11:46 AM    <DIR>          output
+06/06/2026  07:26 AM             2,748 private_data_validator.py
+06/06/2026  07:26 AM             5,893 proxy_mapping.ini
+06/06/2026  07:26 AM             9,028 qualities_validator.py
+06/06/2026  07:26 AM             7,701 ref_integrity_validator.py
+06/06/2026  07:26 AM             7,650 required_children_validator.py
+06/06/2026  07:26 AM             4,149 schema_shape_validator.py
+06/06/2026  07:26 AM             9,708 scrub_config.ini
+06/06/2026  07:26 AM             8,062 skeleton_extractor.py
+06/06/2026  07:26 AM            73,472 skeleton_filler.py
+06/06/2026  07:26 AM             3,934 value_normalizer.py
+06/06/2026  07:27 AM    <DIR>          __pycache__
+              16 File(s)        200,299 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\skeleton_engine\output
+
+06/06/2026  11:46 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/07/2026  07:17 PM           745,548 configuration.xml
+06/06/2026  11:18 AM           745,548 configuration.xml.keep.it.good
+06/06/2026  08:20 AM           745,548 configuration.xml.master.perfect.xml
+06/07/2026  07:17 PM             8,889 immutables.json
+06/07/2026  07:17 PM           902,310 leaves_quality.json
+06/07/2026  07:17 PM           648,164 skeleton.xml
+06/07/2026  07:17 PM            62,106 templates.json
+               7 File(s)      3,858,113 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\skeleton_engine\__pycache__
+
+06/06/2026  07:27 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:27 AM             9,432 jpa_scrubber.cpython-310.pyc
+06/06/2026  07:27 AM            10,476 leaves_quality_extractor.cpython-310.pyc
+06/06/2026  07:26 AM             3,038 value_normalizer.cpython-310.pyc
+               3 File(s)         22,946 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\sonicwall_parser
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM             8,748 builtin_objects.ini
+06/06/2026  07:26 AM    <DIR>          filtered
+06/06/2026  11:45 AM    <DIR>          input
+06/07/2026  07:17 PM    <DIR>          output
+06/06/2026  07:26 AM            20,538 parser_config.ini
+06/06/2026  07:26 AM             8,130 parser_config.schema.ini
+06/06/2026  07:26 AM            10,569 parser_schema.ini
+06/06/2026  07:26 AM            45,930 relevance_filter.py
+06/06/2026  07:26 AM             3,743 sanity_check.py
+06/06/2026  07:26 AM            24,345 sonicwall_parser.py
+               7 File(s)        122,003 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\sonicwall_parser\filtered
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM             1,549 migration_scope.md
+               1 File(s)          1,549 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\sonicwall_parser\input
+
+06/06/2026  11:45 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM           104,069 basura-slimmed-sonicwallconfig.txt
+06/06/2026  10:10 AM           594,484 keep-it-good-nsa3600.txt
+06/06/2026  07:26 AM           615,491 maser-but-sidelined-for-now-nsa3600.txt
+06/06/2026  07:26 AM           615,491 master-safe-nsa3600 - Copy.txt
+06/06/2026  11:42 AM           594,484 nsa3600.txt
+               5 File(s)      2,524,019 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\sonicwall_parser\output
+
+06/07/2026  07:17 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/07/2026  07:17 PM            41,894 access_rules.json
+06/07/2026  07:17 PM            22,296 address_groups.json
+06/07/2026  07:17 PM               772 address_objects.json
+06/07/2026  07:17 PM             2,935 administration.json
+06/07/2026  07:17 PM             3,674 appflow.json
+06/07/2026  07:17 PM               576 arp.json
+06/07/2026  07:17 PM               596 bandwidth_management.json
+06/07/2026  07:17 PM             3,039 bandwidth_objects.json
+06/07/2026  07:17 PM             1,740 cli_settings.json
+06/07/2026  07:17 PM             3,439 content_filter.json
+06/07/2026  07:17 PM             2,551 device_metadata.json
+06/07/2026  07:17 PM               701 dhcp_server.json
+06/07/2026  07:17 PM               570 dhcp_server_ipv6.json
+06/07/2026  07:17 PM            13,444 diag.json
+06/07/2026  07:17 PM               415 dns.json
+06/07/2026  07:17 PM             1,045 dns_directives.json
+06/07/2026  07:17 PM             1,048 dns_security.json
+06/07/2026  07:17 PM             1,539 failover_lb.json
+06/07/2026  07:17 PM               573 file_terminator.json
+06/07/2026  07:17 PM             2,347 firewall_global.json
+06/07/2026  07:17 PM               410 firmware_block.json
+06/07/2026  07:17 PM            10,680 high_availability.json
+06/07/2026  07:17 PM               641 icmp_protocol.json
+06/07/2026  07:17 PM            12,684 interfaces.json
+06/07/2026  07:17 PM             7,330 interfaces_ipv6.json
+06/07/2026  07:17 PM             2,397 ip_helper.json
+06/07/2026  07:17 PM               715 license_block.json
+06/07/2026  07:17 PM           897,760 log_settings.json
+06/07/2026  07:17 PM             1,300 mac_ip_anti_spoof.json
+06/07/2026  07:17 PM             1,101 mac_ip_anti_spoof_ipv6.json
+06/07/2026  07:17 PM             1,087 nat_policies.json
+06/07/2026  07:17 PM               409 ndp.json
+06/07/2026  07:17 PM               638 ndp_directives.json
+06/07/2026  07:17 PM             4,259 packet_monitor.json
+06/07/2026  07:17 PM               415 qos_mapping.json
+06/07/2026  07:17 PM             2,201 qos_mapping_entries.json
+06/07/2026  07:17 PM               901 rbl.json
+06/07/2026  07:17 PM               413 route_policies.json
+06/07/2026  07:17 PM             3,275 schedules.json
+06/07/2026  07:17 PM             1,678 sdwan.json
+06/07/2026  07:17 PM               784 security_services.json
+06/07/2026  07:17 PM            20,655 service_groups.json
+06/07/2026  07:17 PM            60,512 service_objects.json
+06/07/2026  07:17 PM               395 snmp.json
+06/07/2026  07:17 PM            19,461 sonicpoint_wifi.json
+06/07/2026  07:17 PM               559 ssh_block.json
+06/07/2026  07:17 PM             1,184 ssl_control.json
+06/07/2026  07:17 PM               923 ssl_vpn_portal.json
+06/07/2026  07:17 PM             2,516 ssl_vpn_profile.json
+06/07/2026  07:17 PM             1,239 ssl_vpn_server.json
+06/07/2026  07:17 PM               647 switch_block.json
+06/07/2026  07:17 PM             1,732 switch_controller.json
+06/07/2026  07:17 PM             1,065 tcp_protocol.json
+06/07/2026  07:17 PM             1,318 tech_support_report.json
+06/07/2026  07:17 PM               761 time_block.json
+06/07/2026  07:17 PM             3,620 top_level_negations.json
+06/07/2026  07:17 PM               670 udp_protocol.json
+06/07/2026  07:17 PM            15,738 users_auth.json
+06/07/2026  07:17 PM               686 user_partitioning.json
+06/07/2026  07:17 PM             1,003 virtual_assist.json
+06/07/2026  07:17 PM               627 voip.json
+06/07/2026  07:17 PM             1,923 vpn_global.json
+06/07/2026  07:17 PM             6,143 vpn_policies.json
+06/07/2026  07:17 PM               640 web_proxy.json
+06/07/2026  07:17 PM             7,894 zones.json
+06/07/2026  07:17 PM             4,742 _manifest.json
+06/07/2026  07:17 PM               435 _unparsed.json
+              67 File(s)      1,213,360 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\team_config
+
+05/07/2026  12:29 PM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\wg_validator
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM             7,161 CROSS_REFERENCE_FINDINGS.md
+06/06/2026  07:26 AM            17,667 jpa_diff.py
+06/06/2026  07:26 AM    <DIR>          output
+06/06/2026  07:26 AM             8,111 SCHEMA_CURATION_NOTES.md
+06/06/2026  07:26 AM            14,405 schema_inferer.py
+06/06/2026  07:26 AM            85,758 wg_validator.py
+06/06/2026  07:26 AM             1,796 wg_validator_config.ini
+06/06/2026  07:26 AM             1,894 wg_validator_config.schema.ini
+06/06/2026  07:26 AM             8,336 wg_xml_references.ini
+06/06/2026  07:26 AM             2,871 wg_xml_references.schema.ini
+06/06/2026  07:26 AM           267,911 wg_xml_schema.ini
+06/06/2026  07:26 AM             3,279 wg_xml_schema.schema.ini
+              11 File(s)        419,189 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\wg_validator\output
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM             1,378 validation_report.json
+06/06/2026  07:26 AM             1,438 validation_report.txt
+               2 File(s)          2,816 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\xml_emitter
+
+06/06/2026  07:26 AM    <DIR>          .
+06/08/2026  03:59 AM    <DIR>          ..
+06/06/2026  07:26 AM    <DIR>          dry_run
+06/06/2026  07:26 AM            22,324 make_skeleton.py
+04/29/2026  02:36 PM    <DIR>          output
+06/06/2026  07:26 AM            13,010 skeleton_config.ini
+06/06/2026  07:26 AM            10,226 skeleton_config.schema.ini
+06/06/2026  07:26 AM            79,208 xml_emitter.py
+06/06/2026  07:26 AM            49,185 xml_emit_config.ini
+06/06/2026  07:26 AM            12,505 xml_emit_config.schema.ini
+06/06/2026  07:26 AM             4,702 xml_emit_schema.ini
+               7 File(s)        191,160 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\xml_emitter\dry_run
+
+06/06/2026  07:26 AM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+06/06/2026  07:26 AM           730,817 configuration.xml
+06/06/2026  07:26 AM             6,877 migration_notes.md
+06/06/2026  07:26 AM           113,021 validation_report.json
+06/06/2026  07:26 AM             4,662 validation_report.txt
+06/06/2026  07:26 AM             6,719 _emit_manifest.json
+               5 File(s)        862,096 bytes
+
+ Directory of C:\Users\jimpames\Desktop\FESv8-algebraic\migration_toolkit\xml_emitter\output
+
+04/29/2026  02:36 PM    <DIR>          .
+06/06/2026  07:26 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+             303 File(s)     28,982,258 bytes
+             161 Dir(s)  236,100,001,792 bytes free
