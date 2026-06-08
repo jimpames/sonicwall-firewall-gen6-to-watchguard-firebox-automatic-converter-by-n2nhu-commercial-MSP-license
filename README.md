@@ -7,6 +7,8 @@ Reproducible converter that transforms a SonicWall NSA-3600 (or compatible Sonic
 
 7 jun 26 update
 
+https://www.linkedin.com/pulse/first-demo-sonicwall-nsa-3600-watchguard-firebox-t-30-jim-ames-mrvre
+
 v11 is now in beta
 - brings over interfaces, address objects (aliases), vpns and policies
 
