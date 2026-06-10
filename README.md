@@ -7,6 +7,14 @@ Reproducible converter that transforms a SonicWall NSA-3600 (or compatible Sonic
 
 10 jun 26 update
 
+CLI for v6 e-cli for us to use for conversion:
+
+export current-config cli ftp ftp://tester:password@192.168.1.244
+
+so you need to have a ftp server like rebex on .244
+
+
+
 need to get a different conversion than what we support? nsa 3600 ==> watchguard t-30
 
 no problem!
