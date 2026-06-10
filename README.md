@@ -5,6 +5,22 @@
 
 Reproducible converter that transforms a SonicWall NSA-3600 (or compatible SonicOS) configuration export into a WatchGuard Firebox T-30 (or compatible Fireware 12.5.9) XML configuration that loads on the box AND renders correctly in the Web UI.
 
+10 jun 26 update
+
+need to get a different conversion than what we support? nsa 3600 ==> watchguard t-30
+
+no problem!
+
+use sonicwall tool to convert FROM your MODEL to NSA 3600 or equiv.
+
+https://migratetool.global.sonicwall.com/
+
+then convert the XML we give you from t-30 to wherever yout wan to be via the WATCHGUARD SYSTEM MANANGER - it can convert firebox.xml across models...
+https://www.watchguard.com/help/docs/help-center/en-us/content/en-us/Fireware/basicadmin/config_file_use_new_model_wsm.html
+
+
+
+
 7 jun 26 update
 
 https://www.linkedin.com/pulse/first-demo-sonicwall-nsa-3600-watchguard-firebox-t-30-jim-ames-mrvre
