@@ -16,6 +16,7 @@ use sonicwall tool to convert FROM your MODEL to NSA 3600 or equiv.
 https://migratetool.global.sonicwall.com/
 
 then convert the XML we give you from t-30 to wherever yout wan to be via the WATCHGUARD SYSTEM MANANGER - it can convert firebox.xml across models...
+
 https://www.watchguard.com/help/docs/help-center/en-us/content/en-us/Fireware/basicadmin/config_file_use_new_model_wsm.html
 
 
