@@ -1,0 +1,88 @@
+🚀 Excellent work, Captain! Banked safely in your GitHub private locker. Rest well — you've earned it.
+Honest answer to your two questions before you go:
+What's left for VALUES to fully cross over
+Yes, we're almost home — but I need to be straight with you: the catalogs are tuned, but the EMIT CODE that uses them isn't fully wired yet. Tonight's sprint corrected the answer key. The next session uses the answer key to fix the actual translation.
+Five concrete code-side gaps remain to lift the value-fidelity score from 0.45 → ~1.0:
+1. Phase 1 IKE crypto values (high impact) — Right now fill_vpn_policies reuses the factory ike2_shared_action instead of building a customer-specific one. With the new wg_enums.ini Phase 1 tables, the next sprint can emit a customer <ike-action> named <VPN>_bo containing the customer's actual aes-128/sha-1/dh-2/28800s translated to the right WG codes. About 60 min of careful code work.
+2. Phase 2 IPSec crypto values (high impact) — Same story. The toolkit picks ESP-AES128-SHA1 as the proposal name (which happens to be right for the customer), but doesn't honor PFS-off. With [enum.ipsec_action.pfs] now in INI, the next sprint emits <pfs>0</pfs> when SW says no PFS. About 20 min.
+3. IKE identity strings (low-effort, big scoreboard impact) — local-id-data and peer-auth/domain-name carry-over. The data is in the enricher's record; toolkit just needs to write it. About 15 min each.
+4. Gateway peer-addr (verbatim name-or-IP) — Pass SW gateway primary token verbatim to WG <peer-addr>. About 15 min.
+5. The NAT family (biggest remaining work) — 4 new shape emissions: abs-policy, policy-00, .1.from, .1.to. About 90 min — a real chunk of net-new code, but it's the LAST big piece.
+Estimated total: ~3-4 hours focused work to close all five and watch the composite climb from 0.7185 toward ~0.93+.
+Did I use the new info for WAN/VLANs?
+Honest answer: Partially. I tuned the INIs but didn't yet update the emit code.
+WAN interface:
+
+✅ external_if.external-type enum added to wg_enums.ini (static=1, dhcp=2, pppoe=3)
+✅ interface_ip_mode extractor added to sw_field_extractors.ini
+❌ fill_interfaces in skeleton_filler.py doesn't yet READ this extractor or emit <external-type> + populated <default-gateway>. Today the toolkit just patches <ip>, <netmask>, <description> — it doesn't branch on static-vs-DHCP. About 30 min to wire up.
+
+VLANs:
+
+✅ marker_mapping.ini VLAN shape corrected (no more bogus <vlan-config>)
+✅ interface_item.item-type enum corrected (1=physical, 2=vlan, 4=tunnel)
+❌ No VLAN emission code exists in skeleton_filler.py today. The toolkit doesn't process interface vlan N <NAME> blocks at all. About 60 min to build the emitter for the dual-interface pattern.
+
+So the catalogs say what SHOULD happen for WAN-static and VLANs, but the toolkit doesn't yet honor them in the emit. That's the next sprint's job.
+Honest state for your peace of mind
+What's solid:
+
+13 INI files (~10,000 lines) are now the single source of truth
+10 validators run on every conversion
+Golden-pair gives quantitative fidelity scoring
+Canonical SHA a03f4aab... preserved across all of tonight's work
+Production v11/v1.3 at firewallejectorseat.com untouched, four-copy backup posture intact
+
+What's queued for next session:
+
+5 code-side gap closures (~3-4 hours focused work)
+Each one is validator-graded — composite score will climb measurably
+All the design work is done; the next session is mostly mechanical emit-code edits guided by the INIs we just tuned
+
+You're not as close to done as the catalogs make it look — but you're not far either. The hardest discoveries (the metadata decoding, the enum mappings, the shape corrections) are behind us. What's left is straightforward emit-code work informed by what we now know.
+When you're back
+Pick up at the 5 emit-code closures. Order I'd recommend: IKE identity strings first (quick wins to validate the scoring lift), then GW peer-addr, then PFS, then Phase 1 IKE action, then NAT family last (biggest).
+Each closure should produce a measurable scoreboard lift. By the end, composite should land near 0.93+ with all 9 markers paired.
+🤠 Safe travels, Captain. You've built something real. The toolkit is tuned, the math is honest, and the path home is mapped. See you when you're back.You said: thank you.thank you. we have three dozens? INI files now end to end???? check me on that....9:26 AMClaude responded: 🎯 Let me actually count, Captain — no estimation: Good — 34 in the count, plus 2 more in schema_learner that the first find missed due to a transient I/O erro…🎯 Let me actually count, Captain — no estimation:Ran 2 commandsRan 2 commandsGood — 34 in the count, plus 2 more in schema_learner that the first find missed due to a transient I/O error. Let me get the true total:True final count of INIsTrue final count of INIs🎯 Honest answer, Captain: 36 INI files total, but the answer is more nuanced than a raw count.
+Let me give you the truthful breakdown — because "three dozen" is roughly right, but the categories matter:
+Breakdown by purpose
+CategoryCountPurposeReal config (load-bearing)17The actual algebra — code reads these to make decisionsSchema files (*.schema.ini)13Define the structure of the config INIs themselves (meta-config)Schema files (*_schema.ini without dot)3Older-style schema files (some duplicated with the dotted form)Webapp1fes_webapp.ini (webapp config, separate from toolkit)Toolkit duplicates (old toolkit copy still in webapp/toolkit/)5Stale copies — should probably be culledReachable total36What find finds in the toolkit + webapp tree
+The 17 actual load-bearing INIs (the ones that matter)
+These are the ones code actually reads to drive behavior:
+1.  concept_map/concept_map.ini
+2.  diff_scorer/diff_score_config.ini
+3.  enricher/enrich_config.ini
+4.  enricher/sw_field_extractors.ini        ← new this week
+5.  schema_learner/learn_config.ini
+6.  skeleton_engine/golden_pair_config.ini  ← new this week
+7.  skeleton_engine/immutables.ini          ← new this week
+8.  skeleton_engine/marker_mapping.ini      ← new this week
+9.  skeleton_engine/proxy_mapping.ini
+10. skeleton_engine/scrub_config.ini
+11. skeleton_engine/template_preferences.ini ← new this week
+12. skeleton_engine/wg_enums.ini            ← new this week
+13. skeleton_engine/zone_mapping.ini        ← new this week
+14. sonicwall_parser/builtin_objects.ini
+15. sonicwall_parser/parser_config.ini
+16. wg_validator/wg_validator_config.ini
+17. wg_validator/wg_xml_references.ini
+18. wg_validator/wg_xml_schema.ini          ← (6879 lines, the giant one)
+19. xml_emitter/skeleton_config.ini
+20. xml_emitter/xml_emit_config.ini
+That's actually 20 load-bearing INIs, not 17 — I miscounted before. Let me re-tally with eyes-on:
+Yes — 20 load-bearing INIs, of which 7 were added or extended in the last 48 hours of refactor work (marked "new this week" above).
+What I'd say honestly
+"We have three dozen INI files end to end" is literally true (36 found), but it overstates the algebraic surface area. The right way to describe it:
+
+"The toolkit is driven by 20 load-bearing INI files with about 10,000 lines of declarative configuration, plus 13 schema files that validate the structure of those configs. The web app has its own config INI. Total INI footprint across the project is 34 distinct files (36 counting some duplicated copies in an old toolkit subdirectory we should probably cull)."
+
+That's the honest characterization. "Three dozen end-to-end" is fine shorthand for the raw count, but the 17-20 algebraic INIs are the real story — that's the single-source-of-truth surface that this week's refactor work created.
+One small clean-up worth flagging
+The webapp/toolkit/ subdirectory has 5 stale INI copies that duplicate ones in webapp/toolkit_v11/. They're not load-bearing (toolkit_v11 is what runs), but they're confusing. Next time we touch the codebase, worth deleting them so the count is cleaner.
+🤠 Rest well, Captain. When you're back, the path from here to v1.8 is:
+
+Cull the 5 stale duplicates (5 min)
+Close the 5 emit-code gaps using the 7 new INIs (3-4 hours)
+Watch the composite climb from 0.72 → 0.93+
+
+You earned every line of those 20 algebraic INIs. See you on the other side of your credit refresh.
