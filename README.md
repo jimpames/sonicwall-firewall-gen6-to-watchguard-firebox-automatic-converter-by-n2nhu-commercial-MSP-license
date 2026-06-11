@@ -3,6 +3,18 @@
 # 
 **n2nhu lab — Jim Ames**
 
+11 jun 2026
+
+next sprint plan mid june:
+now that we move over adr obj; intf LAN; policy; and VPN
+
+this next sprint will MATCH the VPN/IP settings from source
+
+we are also now working on brining over NAT and WAN intf in next sprint mid jun
+
+stay tuned...
+
+
 Reproducible converter that transforms a SonicWall NSA-3600 (or compatible SonicOS) configuration export into a WatchGuard Firebox T-30 (or compatible Fireware 12.5.9) XML configuration that loads on the box AND renders correctly in the Web UI.
 
 10 jun 26 update
