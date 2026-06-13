@@ -3,9 +3,12 @@
 # 
 **n2nhu lab — Jim Ames**
 
+13 jun 26
+
+sprints below completed - 1.8.3 live on site.
 11 jun 2026
 
-next sprint plan mid june:
+now completed: next sprint plan mid june for 1.8.3:
 now that we move over adr obj; intf LAN; policy; and VPN
 
 this next sprint will MATCH the VPN/IP settings from source
