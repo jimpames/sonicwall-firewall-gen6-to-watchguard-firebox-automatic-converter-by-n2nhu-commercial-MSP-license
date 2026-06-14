@@ -9,6 +9,8 @@
 
 migrates adr obj/grp (alias); vlan (qty 1); lan/wan intf (1 ea); policies; IKE VPNs
 
+1.8.7 release notes: https://github.com/jimpames/sonicwall-firewall-gen6-to-watchguard-firebox-automatic-converter-by-n2nhu-commercial-MSP-license/blob/main/FES-1.8.7-RELEASE-NOTES.md
+
 sprints below completed - 1.8.3 live on site.
 11 jun 2026
 
